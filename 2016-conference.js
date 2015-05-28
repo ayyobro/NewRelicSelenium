@@ -87,7 +87,7 @@ $browser.getCapabilities().then(function () { })
   return $browser.waitForAndFindElement(By.name("company_name"), DefaultTimeout); })
 .then(function (el) {
   el.clear();
-  el.sendKeys("Example Company"); })
+  el.sendKeys("Example Company 2"); })
 
 .then(function () {
   log('setElementText "company_address"');
@@ -133,7 +133,7 @@ $browser.getCapabilities().then(function () { })
   return $browser.waitForAndFindElement(By.name("company_website"), DefaultTimeout); })
 .then(function (el) {
   el.clear();
-  el.sendKeys("http://b-y.net"); })
+  el.sendKeys("http://www.impulsecreative.com/"); })
 
 .then(function () {
   log('setElementSelected "//div[1]/form[1]/div[1]/div/div[2]/fieldset/div[1]/div[8]/div/select//option[5]"');
@@ -159,7 +159,7 @@ $browser.getCapabilities().then(function () { })
   return $browser.waitForAndFindElement(By.name("conference_contact_email"), DefaultTimeout); })
 .then(function (el) {
   el.clear();
-  el.sendKeys("randomo@gmail.com"); })
+  el.sendKeys("randomo1@gmail.com"); })
 
 .then(function () {
   log('setElementText "attendee_one_name"');
